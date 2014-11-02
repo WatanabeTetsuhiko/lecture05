@@ -1,7 +1,7 @@
 //ボタンが押されたら実行される関数
 
-var greeting = function(message){
-  var output=document.querySelector("#answer");
+var greeting = function(answer){
+  var output=document.querySelector("answer");
   output.value=answer;
 };
 
